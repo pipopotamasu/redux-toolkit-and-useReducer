@@ -1,19 +1,14 @@
+import './CounterApp.css';
+
 function CounterApp() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="counter-app">
+      <p className="counter">Counter: 0</p>
+      <ul className="buttons">
+        <li><button>+</button></li>
+        <li><button>-</button></li>
+        <li><button>reset</button></li>
+      </ul>
     </div>
   );
 }

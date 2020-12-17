@@ -1,0 +1,24 @@
+.counter-app {
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.counter {
+  font-size: 24px;
+}
+
+.buttons {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.buttons > li {
+  margin-right: 1rem;
+}
+
+.buttons > li > button {
+  cursor: pointer;
+  width: 3rem;
+}
